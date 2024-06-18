@@ -19,3 +19,5 @@ classDiagram
     +adicionarNovaAba()
     +atualizarPagina() 
     }
+
+https://www.mermaidchart.com/raw/913bab53-ae6f-4af2-a223-fa8291050b54?theme=light&version=v0.1&format=svg ( link para visualização do Diagrama)
