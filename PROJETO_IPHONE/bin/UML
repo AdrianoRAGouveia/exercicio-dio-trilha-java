@@ -1,0 +1,21 @@
+classDiagram
+    NavegadorInternet  <|-- iPhone
+    AparelhoTelefonico <|-- iPhone
+    ReprodutorMusical  <|-- iPhone
+    
+    class ReprodutorMusical{
+    
+    +tocar()  
+    +pausar()     
+    +SelecionarMusica(musica:"I Winner - Cantor Desconhecido" )  
+    }
+    class AparelhoTelefonico{
+    +ligar( numero: "1234-5678") 
+    +atender()  
+    +iniciarCorreioVoz()    
+    }
+    class NavegadorInternet{
+    +exibirPagina(url:"https://www.exemplo.com.br") 
+    +adicionarNovaAba()
+    +atualizarPagina() 
+    }
